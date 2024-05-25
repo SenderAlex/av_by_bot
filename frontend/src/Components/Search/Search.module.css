@@ -1,0 +1,38 @@
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  /*зафиксирование компоненты в браузере*/
+  /*position: sticky;*/
+  /**/
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f3f3f3;
+}
+
+.button {
+  background-color: rgba(51, 189, 126, 0.94) !important;
+  color: white !important;
+  position: absolute;
+  right: 0;
+}
+
+.button:hover {
+  background-color: rgba(57, 169, 76, 0.94) !important;
+  color: lightgray !important;
+}
+
+
+.container {
+  display: flex;
+  align-items: center;
+  background-color: rgba(50, 180, 121, 0.94) !important;
+}
+
+
+.buttons_container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}

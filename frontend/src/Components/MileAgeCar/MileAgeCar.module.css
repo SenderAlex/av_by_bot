@@ -1,0 +1,33 @@
+td img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+img {
+  border-radius: 10px;
+}
+
+.width {
+  width: 80%;
+  margin: 0 auto; /* для центрирования по горизонтали */
+}
+
+.width table {
+  width: 100%;
+}
+
+.width td {
+  width: 25%;
+  border: none;
+}
+
+
+/*.listing_item__wrap {*/
+/*  position: relative;*/
+/*  display: grid;*/
+/*  grid-template-columns: 200px 202px 202px 1fr;*/
+/*  grid-template-rows: 1fr repeat(2, min-content);*/
+/*  gap: 8px 20px;*/
+/*}*/

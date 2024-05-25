@@ -1,0 +1,36 @@
+.button {
+  background-color: rgba(0, 128, 255, 0.94) !important;
+  color: white !important;
+}
+.button:hover {
+  background-color: rgba(0, 102, 255, 0.94) !important;
+  color: lightgray !important;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 15px;
+}
+
+.buttons_container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+img {
+  border-radius: 5px;
+}
+
+.logo {
+  height: 1.7rem;
+  width: 7rem;
+  /*will-change: filter;*/
+  /*transition: filter 300ms;*/
+  margin: 7px;
+  color: #0e88df;
+}

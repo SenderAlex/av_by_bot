@@ -1,0 +1,46 @@
+
+.button {
+  /* remove default behavior */
+  appearance:none;
+  -webkit-appearance:none;
+  /* usual styles */
+  padding:10px;
+  border:none;
+  background-color: rgba(51, 189, 126, 0.94);
+  color:#fff;
+  font-weight:600;
+  border-radius:5px;
+  width:80%;
+  margin-top: 16px;
+  max-width: 210px;
+}
+
+.button:hover {
+  background-color: rgba(57, 169, 76, 0.94) !important;
+  color: lightgray !important;
+}
+
+.half-width {
+    width: 50%; /* или другое значение, например 40% */
+}
+
+.registrationWrapper{
+  display: flex;
+  justify-content: center;
+  margin: 16px;
+}
+
+.registrationForm{
+  max-width: 600px;
+  width: 200%;
+}
+
+.componentContainer+.componentContainer{
+  margin-top: 16px;
+}
+
+.customInput {
+    height: 42px; /* Настройте высоту поля ввода в пикселях */
+    font-size: 18px; /* Размер шрифта внутри <input> */
+    font-family: "Arial", serif; /* Шрифт текста внутри <input> */
+}

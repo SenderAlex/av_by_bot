@@ -1,0 +1,32 @@
+
+.width table {
+  width: 90%;
+}
+
+.width td {
+  width: 25%;
+  border: none;
+  font-size: 20px; /* изменить размер шрифта в заголовках и ячейках таблицы */
+  font-family: "Arial", serif;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+
+}
+
+.h1 {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 34px;
+}
+
+a:hover {
+  color: red;
+}
+
+/*.myButton {*/
+/*  margin-top: 20px; !* задает отступ сверху *!*/
+/*  margin-bottom: 20px; !* задает отступ снизу *!*/
+/*}*/

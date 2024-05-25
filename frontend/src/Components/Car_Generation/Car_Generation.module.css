@@ -1,0 +1,37 @@
+.width table {
+  width: 90%;
+}
+
+.width td {
+  width: 25%;
+  border: none;
+  font-size: 16px; /* изменить размер шрифта в заголовках и ячейках таблицы */
+  font-family: "Arial", serif;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.h1 {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 34px;
+}
+
+.tableWrapper{
+  font-size: 20px;
+  /*display: flex;*/
+  flex-wrap: wrap;
+  gap: 8px;
+  width: 80%;
+}
+
+.link-text{
+  color: blue;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.link-text:hover .link-text__content{
+  color: red;
+}

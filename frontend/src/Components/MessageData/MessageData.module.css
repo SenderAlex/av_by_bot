@@ -1,0 +1,33 @@
+
+td {
+  padding: 8px;
+  text-align: left;
+  border: none;
+}
+
+.width2 {
+  width: 80%;
+}
+
+.width2 td:nth-child(1) {
+  width: 3%;
+  border: none;
+}
+
+.width2 td:nth-child(2),
+.width2 td:nth-child(3),
+.width2 td:nth-child(4),
+.width2 td:nth-child(5) {
+  width: 9%;
+  border: none;
+}
+
+.width2 td:nth-child(6) {
+  width: 46%;
+  border: none;
+}
+
+.width2 td:nth-child(7) {
+  width: 16%;
+  border: none;
+}
