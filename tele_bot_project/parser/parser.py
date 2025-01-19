@@ -7,8 +7,8 @@ import psycopg2
 
 class Parser:
     db_name = 'av_by_data_bases'
-    user = 'av_by_admin'
-    password = 'AVLioneLMessI1024BY'
+    user = 'username'
+    password = 'your_password'
     host = 'localhost'
     port = '5432'
     #full_url = [f'https://cars.av.by/filter?page={page}' for page in range(1, 121)]
