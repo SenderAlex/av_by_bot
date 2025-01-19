@@ -36,7 +36,7 @@ class Car(Base):
     car_options = Column(Text)
     http_link = Column(String)
 
-engine = create_engine('postgresql://av_by_admin:AVLioneLMessI1024BY@localhost:5432/av_by_data_bases')
+engine = create_engine('postgresql://username:your_password@localhost:5432/data_base_name')
 Base.metadata.create_all(engine)
 
 Session = sessionmaker(bind=engine)
